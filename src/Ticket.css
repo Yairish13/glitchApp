@@ -1,0 +1,74 @@
+.hiddenTicket {
+  display: none;
+}
+
+.hideTicketButton {
+  border-radius: 50px;
+}
+
+.container {
+  position: relative;
+}
+
+.ticket {
+  position: relative;
+  border: 1px solid #333333;
+  padding: 30px;
+  margin: 20px;
+  width: 60vw;
+  color: black;
+  background-color: beige;
+  box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 2;
+}
+
+/* button {
+  position: absolute;
+  right: 20px;
+} */
+
+.hideTicketButton {
+  position: absolute;
+  right: 20px;
+outline: none;
+border: none;
+background: transparent;
+font-size: 16px;
+color: red;
+cursor: pointer;
+}
+
+.doneBtn {
+  width: 70px;
+  height: 35px;
+  position: absolute;
+  right: 20px;
+  border-radius: 5px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.labels {
+  border-color: teal;
+  bottom: 30px;
+  z-index: 1;
+ position: absolute;
+ 
+}
+
+.label {
+  padding: 8px;
+  background-color: teal;
+  margin-right: 5px;
+  border-radius: 5px;
+
+}
